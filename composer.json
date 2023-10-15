@@ -1,0 +1,9 @@
+{
+    "name": "icatkcb7/php-router",
+    "autoload": {
+        "psr-4": {
+            "Icatkcb7\\PhpRouter\\": "src/"
+        }
+    },
+    "require": {}
+}
