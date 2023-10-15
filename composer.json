@@ -1,9 +1,28 @@
 {
-    "name": "icatkcb7/php-router",
-    "autoload": {
-        "psr-4": {
-            "Icatkcb7\\PhpRouter\\": "src/"
-        }
-    },
-    "require": {}
+  "name": "joydeep-bhowmik/php-router",
+  "description": "A PHP router package",
+  "version": "1.0.0-stable",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "livewire",
+    "datatable"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joydeep Bhowmik",
+      "email": "bhowmikj9432@gmail.com"
+    }
+  ],
+  "require": {
+    "vendor/package": "^1.0",
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoydeepBhowmik\\PHPRouter\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
 }
