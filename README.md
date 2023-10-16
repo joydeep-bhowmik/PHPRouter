@@ -14,7 +14,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [L]
 ```
-
+2. Composer command
+```composer
+composer require joydeep-bhowmik/php-router
+```
 ### Basic
 in your index.php file
 ```PHP
