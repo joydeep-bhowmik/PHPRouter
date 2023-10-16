@@ -1,5 +1,5 @@
 # PHPRouter
-A simple and efficient PHP routing library.
+A simple, lightweight and efficient PHP routing library.
 
 ## Usage
 ### Setup
