@@ -6,7 +6,7 @@ A simple and efficient PHP routing library.
 1. Make sure you have a index.php file in your root directory.
 Put this `.htaccess` file in your root directory.
 
-```apacheconfig
+```apacheconf
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
