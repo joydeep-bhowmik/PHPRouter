@@ -45,7 +45,10 @@ class Router
     {
         return $this->addRoute($pattern, $callback, $method = 'delete');
     }
-
+    public function any($pattern, $callback)
+    {
+        return $this->addRoute($pattern, $callback, $method = $_SERVER['REQUEST_METHOD']);
+    }
     public function handleRequest($requestUri, $method)
     {
         foreach ($this->routes as $key => $value) {
