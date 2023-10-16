@@ -30,7 +30,7 @@ $router->get('/', function () {
 $router->dispatch();
 echo Router::$view;
 ```
-### get, post, put, delete
+### get, post, put, delete , any
 ```PHP
 
 $router->get('/', function () {
@@ -44,6 +44,9 @@ $router->put('/', function () {
 });
 $router->delete('/', function () {
     return 'delete request';
+});
+$router->any('/', function () {
+    return 'anytype of request';
 });
 $router->dispatch();
 ```
