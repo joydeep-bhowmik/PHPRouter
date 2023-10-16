@@ -21,6 +21,7 @@ composer require joydeep-bhowmik/php-router
 ### Basic
 in your index.php file
 ```PHP
+require __DIR__ . '/vendor/autoload.php';
 use JoydeepBhowmik\PHPRouter\Router;
 $router = new Router();
 $router->get('/', function () {
