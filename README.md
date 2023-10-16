@@ -87,6 +87,9 @@ $router->middleware(Example_middleware::class, function () use ($router) {
     $router->get('/', function () {
         return 'Home';
     });
+    $router->get('/about', function () {
+        return 'about';
+    });
 
 });
 $router->dispatch()
