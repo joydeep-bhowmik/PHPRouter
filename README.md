@@ -7,7 +7,7 @@ A simple and efficient PHP routing library.
 Put this `.htaccess` file in your root directory.
 
 ```apacheconfig
-
+#.htaccess
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -46,6 +46,12 @@ $router->delete('/', function () {
     return 'delete request';
 });
 $router->dispatch();
+```
+### Wildcard route
+```PHP
+$router->get('*', function () {
+    return '404 not found';
+});
 ```
 ## Parameters
 ```PHP
@@ -86,9 +92,6 @@ $router->middleware(Example_middleware::class, function () use ($router) {
 
     $router->get('/', function () {
         return 'Home';
-    });
-    $router->get('/about', function () {
-        return 'about';
     });
 
 });
