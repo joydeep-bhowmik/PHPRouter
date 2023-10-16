@@ -7,7 +7,7 @@ A simple and efficient PHP routing library.
 Put this `.htaccess` file in your root directory.
 
 ```apacheconfig
-#.htaccess
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
