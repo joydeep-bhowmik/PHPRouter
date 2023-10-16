@@ -57,7 +57,10 @@ class Router
                 return;
             }
         }
-        call_user_func($this->routes['*']['callback']);
+        if (isset($this->routes['*'])) {
+            call_user_func($this->routes['*']['callback']);
+        }
+
     }
 
     public function handleCallback($callback, $params = null)
