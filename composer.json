@@ -1,7 +1,7 @@
 {
   "name": "joydeep-bhowmik/php-router",
   "description": "A PHP router package",
-  "version": "1.0.0-stable",
+  "version": "1.0.0",
   "type": "library",
   "keywords": [
     "php",
